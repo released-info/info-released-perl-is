@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<!--timestamp=1757809450-->
+<!--timestamp=1790025384-->
 
 <head>
   <meta charset="UTF-8">
@@ -12,25 +12,25 @@
           crossorigin="anonymous"></script>
   
   <title>
-    Is Perl 5.42 Released?
+    Is Perl 5.46 Released?
   </title>
   <link rel="icon" href="https://released.info/assets/img/technologies/perl/perl.ico" type="image/svg+xml">
-  <meta name="description" content="Is Perl 5.42 Released?">
+  <meta name="description" content="Is Perl 5.46 Released?">
   <meta name="keywords" content="Perl, release, date, when, programming, language, development">
-  <meta name=”robots” content="index, follow">
+  <meta name="robots" content="index, follow">
 
   <!-- facebook -->
   <meta property="og:url" content="https://is.perl.released.info" />
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Is Perl 5.42 Released?" />
-  <meta property="og:description" content="Perl 5.42 is not released. Still waiting! #released.info" />
+  <meta property="og:title" content="Is Perl 5.46 Released?" />
+  <meta property="og:description" content="Perl 5.46 will be released in 241 days! #released.info" />
   <meta property="og:image" content="https://released.info/assets/img/technologies/perl/perl-logo.png" />
 
   <!-- twitter -->
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="ReleasedInfo" />
-  <meta name="twitter:title" content="Is Perl 5.42 Released?" />
-  <meta name="twitter:description" content="Perl 5.42 is not released. Still waiting! #released.info" />
+  <meta name="twitter:title" content="Is Perl 5.46 Released?" />
+  <meta name="twitter:description" content="Perl 5.46 will be released in 241 days! #released.info" />
   <meta name="twitter:image" content="https://released.info/assets/img/technologies/perl/perl-logo.png" />
 
   <meta name="url" content="https://is.perl.released.info" />
@@ -47,7 +47,7 @@
 
 <body>
 
-  <input id="released-days" type="hidden" value="-1" />
+  <input id="released-days" type="hidden" value="241" />
 
   <main role="main">
     <a href="https://released.info/index.html" class="go-back"><i class="bi bi-arrow-left"></i></a>
@@ -72,13 +72,13 @@
           </li>
         </ul>
         <h2>
-          Is Perl 5.42 Released?
+          Is Perl 5.46 Released?
         </h2>
         <div class="row">
           <div class="col-lg-8">
 
             <div id="logo">
-              <span role="img" aria-label="${configuration.logoAlt}"
+              <span role="img" aria-label="Perl logo"
                 style="background-image: url(&#39;https://released.info/assets/img/technologies/perl/perl-logo.png&#39;);">
               </span>
             </div>
@@ -86,12 +86,13 @@
             <!-- CHOOSE ONE OF BELOW SECTIONS HERE -->
 
             
-            
             <span>
-              <div class="white-box" id="not-yet">
-                Not Yet
+              <div class="odometer-content" id="counter">
+                <div id="odometer"></div>
               </div>
             </span>
+            <!-- A counter that reached zero falls back to "Not Yet" instead of an empty box until the state is updated -->
+            
             
 
             <!-- END -->
@@ -101,12 +102,12 @@
         <div class="row">
           <div class="col-lg-8">
             <h3 id="highlightTextDescription1">
-              Perl 5.41 has been released on <span class="btn-primary">January 20, 2025</span>
+              Days until Perl 5.46 is officially released
             </h3>
           </div>
           <div class="col-lg-8">
             <h4 id="highlightTextDescription2">
-              Perl 5.42 is planned to be released <span class="btn-primary">in the first half of 2025</span>
+              Perl 5.46 is planned for <span class="btn-primary">20th May 2027</span>, Perl 5.44 has been released on 15th July 2026
             </h4>
           </div>
         </div>
@@ -122,26 +123,26 @@
     <section class="features-section">
       <div class="container-lg">
         <h2>
-          Meet Perl 5.42
+          Meet Perl 5.44
         </h2>
         <div class="row mb-5">
           <div class="col-md-5">
 
             <ul>
               <li>
-                ore Enhancements
+                Named parameters in signatures (experimental)
               </li>
             </ul>
 
             <ul>
               <li>
-                Removal of Deprecated Features
+                Reference aliases in multi-variable foreach
               </li>
             </ul>
 
             <ul>
               <li>
-                Performance Improvements
+                /xx regex modifier extended to character classes
               </li>
             </ul>
 
@@ -149,22 +150,22 @@
           <div class="col-md-5">
             <ul>
               <li>
-                Module Updates: builtin
+                Unicode 17.0 support
               </li>
             </ul>
             <ul>
               <li>
-                Module Updates: POSIX
+                PRNG seeding with getentropy()
               </li>
             </ul>
           </div>
         </div>
         <div class="text-center">
-          <a target="_blank" href="https://www.perl.com/article/announcing-perl-7/" class="btn btn-primary btn-lg">Read more</a>
+          <a target="_blank" href="https://perldoc.perl.org/perl5440delta" class="btn btn-primary btn-lg">Read more</a>
         </div>
       </div>
       <div class="logo-container">
-        <span role="img" aria-label="${configuration.logoAlt2}"
+        <span role="img" aria-label="Perl logo"
           style="background-image: url(&#39;https://released.info/assets/img/technologies/perl/perl-logo2.png&#39;);">
         </span>
       </div>
@@ -181,7 +182,7 @@
             <!-- repeat below container for each image: -->
             <div class="col-md-4">
               <!-- <span role="img" aria-label="_IMAGE_ALT_" style="background-image: url('_ITERATOR_IMAGE_SRC_');">-->
-              <span role="img" aria-label="${post.imageAlt}"
+              <span role="img" aria-label="Book: Learning Perl"
                 style="background-image: url(&#39;https://released.info/assets/img/technologies/perl/book-Learning-Perl.jpg&#39;);">
                 <a target="_blank" href="https://www.amazon.de/-/en/Randal-L-Schwartz-ebook/dp/B01M60UJY9?&amp;_encoding=UTF8&amp;tag=released-info-21&amp;linkCode=ur2&amp;linkId=ff94c7c3081fe9334d2b6c3eace54645&amp;camp=1638&amp;creative=6742">
                   <span>
@@ -195,7 +196,7 @@
             <!-- repeat below container for each image: -->
             <div class="col-md-4">
               <!-- <span role="img" aria-label="_IMAGE_ALT_" style="background-image: url('_ITERATOR_IMAGE_SRC_');">-->
-              <span role="img" aria-label="${post.imageAlt}"
+              <span role="img" aria-label="Book: Programming Perl"
                 style="background-image: url(&#39;https://released.info/assets/img/technologies/perl/book-Programming-Perl.jpg&#39;);">
                 <a target="_blank" href="https://www.amazon.de/-/en/Brian-d-Foy-ebook/dp/B007S291SA?&amp;_encoding=UTF8&amp;tag=released-info-21&amp;linkCode=ur2&amp;linkId=f8a17294ea34c0027e56ca1cffd62bf8&amp;camp=1638&amp;creative=6742">
                   <span>
@@ -209,7 +210,7 @@
             <!-- repeat below container for each image: -->
             <div class="col-md-4">
               <!-- <span role="img" aria-label="_IMAGE_ALT_" style="background-image: url('_ITERATOR_IMAGE_SRC_');">-->
-              <span role="img" aria-label="${post.imageAlt}"
+              <span role="img" aria-label="Book: Beginning Perl Programming"
                 style="background-image: url(&#39;https://released.info/assets/img/technologies/perl/book-Beginning-Perl-Programming.jpg&#39;);">
                 <a target="_blank" href="https://www.amazon.de/-/en/William-Bo-Rothwell-ebook/dp/B07VS9YQN6?&amp;_encoding=UTF8&amp;tag=released-info-21&amp;linkCode=ur2&amp;linkId=58d9072b67accb8c6e069060b521b111&amp;camp=1638&amp;creative=6742">
                   <span>
@@ -223,7 +224,7 @@
             <!-- repeat below container for each image: -->
             <div class="col-md-4">
               <!-- <span role="img" aria-label="_IMAGE_ALT_" style="background-image: url('_ITERATOR_IMAGE_SRC_');">-->
-              <span role="img" aria-label="${post.imageAlt}"
+              <span role="img" aria-label="Book: Perl Cookbook"
                 style="background-image: url(&#39;https://released.info/assets/img/technologies/perl/book-Perl-Cookbook.jpg&#39;);">
                 <a target="_blank" href="https://www.amazon.de/-/en/Tom-Christiansen-ebook/dp/B0043GXMTS?&amp;_encoding=UTF8&amp;tag=released-info-21&amp;linkCode=ur2&amp;linkId=20ba3a3386ca41da0dd1dd4c75f30a3f&amp;camp=1638&amp;creative=6742">
                   <span>
@@ -237,7 +238,7 @@
             <!-- repeat below container for each image: -->
             <div class="col-md-4">
               <!-- <span role="img" aria-label="_IMAGE_ALT_" style="background-image: url('_ITERATOR_IMAGE_SRC_');">-->
-              <span role="img" aria-label="${post.imageAlt}"
+              <span role="img" aria-label="Book: Mastering Algorithms with Perl"
                 style="background-image: url(&#39;https://released.info/assets/img/technologies/perl/book-Mastering-Algorithms-with-Perl.jpg&#39;);">
                 <a target="_blank" href="https://www.amazon.de/-/en/John-Macdonald-ebook/dp/B004VB3UQK?&amp;_encoding=UTF8&amp;tag=released-info-21&amp;linkCode=ur2&amp;linkId=66968845ee036f5dbb7dc400312b28fa&amp;camp=1638&amp;creative=6742">
                   <span>
@@ -251,7 +252,7 @@
             <!-- repeat below container for each image: -->
             <div class="col-md-4">
               <!-- <span role="img" aria-label="_IMAGE_ALT_" style="background-image: url('_ITERATOR_IMAGE_SRC_');">-->
-              <span role="img" aria-label="${post.imageAlt}"
+              <span role="img" aria-label="Book: Intermediate Perl"
                 style="background-image: url(&#39;https://released.info/assets/img/technologies/perl/book-Intermediate-Perl.jpg&#39;);">
                 <a target="_blank" href="https://www.amazon.de/-/en/Randal-L-Schwartz-ebook/dp/B008RCQCYG?&amp;_encoding=UTF8&amp;tag=released-info-21&amp;linkCode=ur2&amp;linkId=adb11dd047304a92303a6ba4c8e953c3&amp;camp=1638&amp;creative=6742">
                   <span>
@@ -305,7 +306,7 @@
     <h1>Why the jump to a major version? Why Perl 7, not Perl 6?</h1>
     There are two parts to this answer. First, Perl 6 was already taken by what is now known
     as <a href="https://raku.org/">Raku</a>.
-    Perl 7 code will still be v5.32 code (mostly) in syntax and behavior though.
+    
 
     <h1>Perl 7 has been cancelled</h1>
     The Perl Steering Committee canceled immediate plans for Perl 7 to avoid breaking backward
@@ -345,10 +346,9 @@
         <h3>Releases</h3>
         Perl has had an interesting history of iterations, beginning with version 1 in 1987, all the way to Perl 4 in
         1993,
-        where it was abandoned by the creator to begin work on Perl 5, which was released in 1994 and maintained until
-        2014.
+        where it was abandoned by the creator to begin work on Perl 5, released in 1994 and still actively maintained with a new stable release every year.
         Perl 6 was renamed “Raku” in 2019, and existed simultaneously with Perl 5 in 2013 and 2014,
-        and continues up to this date under the name of Raku. Perl7 is expected to release in mid-late 2021.
+        and continues up to this date under the name of Raku. Perl 7 has been shelved; the current stable release is Perl 5.44.0 (15th July 2026) and Perl 5.46 is planned for 20th May 2027.
     </div>
 </div>
       </div>
